@@ -34,7 +34,7 @@ setup(name='js.highcharts',
       install_requires=requires,
       entry_points={
           'fanstatic.libraries':
-              'highcharts = js.highcharts.library',
+              'highcharts = js.highcharts:library',
           },
       cmdclass={'install': install}
       )
